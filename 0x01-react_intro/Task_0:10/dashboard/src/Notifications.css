@@ -1,0 +1,17 @@
+.notification-box{
+    border: 2px dashed #e1344b;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+}
+.notification-box ul{
+  margin: 20px;
+}
+
+.notification-box li[data-priority='default'] {
+    color: blue;
+  }
+  
+  .notification-box li[data-priority='urgent'] {
+    color: red;
+  }
